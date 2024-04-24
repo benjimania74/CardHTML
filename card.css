@@ -15,8 +15,8 @@
     --proportions-colones: 65% 35%;
 
     --gris-carte: #EBE2E2;
-    --gris-barre: #797676;
-    --vert-montant: #00561B;
+    --gris-barre: #928E8E;
+    --vert-montant: #037427;
     --rouge-montant: #BB0B0B;
     --noir-texte: #212121;
     
@@ -28,7 +28,7 @@
 }
 
 .card {
-    background-color: #EBE2E2;
+    background-color: var(--gris-carte);
     height: fit-content;
     display: grid;
     grid-template-columns: var(--proportions-colones);
@@ -49,7 +49,6 @@
 
 hr {
     border-color: var(--gris-barre);
-    background-color: transparent;
 }
 
 .date {
@@ -61,4 +60,5 @@ hr {
     text-align: right;
     margin-right: var(--margin);
     font-size: var(--taille-texte);
+    color: var(--vert-montant);
 }
